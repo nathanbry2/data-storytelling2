@@ -133,12 +133,20 @@ a:focus {
 
 #hero {
   background-image: url(../img/lebron-james-michael-jordan_header.jpg);
-  background-repeat: no-repeat;
+/*   background-repeat: no-repeat; */
 /*   height: 100vh; */
   width: 100%;
   height: 670px;
   min-height: 375px;
-  position: relative;
+/*   position: relative; */
+	
+	
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  margin:auto;
+  padding:0;
 }
 
 @media (min-height: 830px) {
