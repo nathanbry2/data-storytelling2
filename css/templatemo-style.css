@@ -129,6 +129,11 @@ a:focus {
   color: #8f8f8f;
 }
 
+.flourish-chart {
+  border: 1px solid black;
+  width: 500px;
+}
+
 /* Hero */
 
 #hero {
