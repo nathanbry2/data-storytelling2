@@ -134,7 +134,7 @@ a:focus {
 #hero {
   background-image: url(../img/lebron-james-michael-jordan_header2.jpg);
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 100vh;
   min-height: 375px;
   position: relative;
 }
