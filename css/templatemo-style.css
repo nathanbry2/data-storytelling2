@@ -136,7 +136,8 @@ a:focus {
 
 .flourish-bar-chart-race {
   border: 1px solid black;
-  width: 700px;
+  width: auto;
+  height: 50%;
 }
 
 /* Hero */
