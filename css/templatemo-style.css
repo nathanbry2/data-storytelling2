@@ -143,11 +143,34 @@ a:focus {
 /* Hero */
 
 #hero {
-  background-image: url(../img/lebron-james-michael-jordan_header.jpg);
+  background: url(../img/lebron-james-michael-jordan_header.jpg);
   background-repeat: no-repeat;
   height: 100vh;
   min-height: 375px;
   position: relative;
+}
+
+#header {
+  background: url(../img/lebron-james-michael-jordan_header.jpg) no-repeat center top fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  min-height: 375px;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
 
 @media (min-height: 830px) {
@@ -427,13 +450,8 @@ figure.effect-honey:hover h5 i {
 
 #contact {
   color: white;
-  background-image: url(../img/the-town-bg-02.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 850px;
+  min-height: 50px;
   position: relative;
-  padding-bottom: 50px;
-  padding-top: 160px;
 }
 
 .tm-underline {
@@ -501,7 +519,10 @@ figure.effect-honey:hover h5 i {
   bottom: 35px;
   left: 0;
   right: 0;
-  padding: 0 15px;
+  height: 75px;
+  padding-top:25px;
+  bottom: 0;
+  background-color: #333333;
 }
 
 .tm-footer-link {

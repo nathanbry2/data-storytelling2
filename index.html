@@ -18,12 +18,12 @@
   </head>
   <body>    
     <!-- Hero section -->
-    <section id="hero" class="text-white tm-font-big tm-parallax">
+    <section id="header" class="text-white tm-font-big tm-parallax">
       <!-- Navigation -->
       <nav class="navbar navbar-expand-md tm-navbar" id="tmNav">              
         <div class="container">   
           <div class="tm-next">
-              <a href="#hero" class="navbar-brand">James vs Jordan</a>
+              <a href="#header" class="navbar-brand">James vs Jordan</a>
           </div>             
             
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -397,6 +397,29 @@ We will leverage data analysis on their respective careers and statistics to try
         </div>
       </div>
     </section>
+
+    <section class="grid-container">
+
+      <div class="grid-item">
+                      <p class="mx-auto tm-work-description">
+                "Curabitur ac orci ac lorem blandit volutpat. Sed ac sodales nibh, ut
+                porttitor elit. Sed id dui mi. Vestibulum ante ipsum primis in faucibus
+                orci luctus et ultrices posuere cubilia."
+              </p>
+      </div>
+      
+
+      <div class="grid-item">
+                      <p class="mx-auto tm-work-description">
+                "Curabitur ac orci ac lorem blandit volutpat. Sed ac sodales nibh, ut
+                porttitor elit. Sed id dui mi. Vestibulum ante ipsum primis in faucibus
+                orci luctus et ultrices posuere cubilia."
+                "Curabitur ac orci ac lorem blandit volutpat. Sed ac sodales nibh, ut
+                porttitor elit. Sed id dui mi. Vestibulum ante ipsum primis in faucibus
+                orci luctus et ultrices posuere cubilia."
+              </p>
+      </div>
+    </section>
       
 <!-- Conclusion section -->     
     <section id="conclusion" class="tm-section-pad-top">
@@ -416,47 +439,6 @@ We will leverage data analysis on their respective careers and statistics to try
 
     <!-- Contact -->
     <section id="contact" class="tm-section-pad-top tm-parallax-2">
-      <div class="container tm-container-contact">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="mb-4 tm-section-title">Contact Us</h2>
-                <div class="mb-5 tm-underline">
-                  <div class="tm-underline-inner"></div>
-                </div>
-                <p class="mb-5">
-                  Nullam tincidunt, lacus a suscipit luctus, elit turpis tincidunt dui,
-                  non tempus sem turpis vitae lorem. Maecenas eget odio in sapien ultrices
-                  viverra vitae vel leo. Curabitur at elit eu risus pharetra pellentesque
-                  at at velit.
-                </p>
-            </div>
-            
-            <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
-              <a href="tel:0100200340" class="tm-contact-item-link">
-                  <i class="fas fa-3x fa-phone mr-4"></i>
-                  <span class="mb-0">010-020-0340</span>
-              </a>              
-            </div>
-            <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
-              <a href="mailto:info@company.co" class="tm-contact-item-link">
-                  <i class="fas fa-3x fa-envelope mr-4"></i>
-                  <span class="mb-0">info@company.co</span>
-              </a>              
-            </div>
-            <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
-              <a href="https://www.google.com/maps" class="tm-contact-item-link">
-                  <i class="fas fa-3x fa-map-marker-alt mr-4"></i>
-                  <span class="mb-0">Location on Maps</span>
-              </a>              
-            </div>
-            <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
-              <form action="" method="get">
-                <input name="email" type="email" placeholder="Subscribe your email" class="tm-input" required />
-                <button type="submit" class="btn tm-btn-submit">Submit</button>
-              </form>
-            </div>
-        </div>
-      </div>
       <footer class="text-center small tm-footer">
           <p class="mb-0">
             Copyright &copy; 2021 - Made with ♡ by Nathan BRY & Bertrand VUILLEMOT
@@ -530,8 +512,8 @@ We will leverage data analysis on their respective careers and statistics to try
       
       $(function(){
         // Hero Section - Background Parallax
-        background_image_parallax($(".tm-parallax"), 0.30, false);
-        background_image_parallax_2($("#contact"), 0.80);   
+/*        background_image_parallax($(".tm-parallax"), 0.30, false);
+*/        background_image_parallax_2($("#contact"), 0.80);   
         
         // Handle window resize
         window.addEventListener('resize', function(){
