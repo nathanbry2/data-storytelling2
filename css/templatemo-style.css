@@ -131,12 +131,12 @@ a:focus {
 
 .flourish-chart {
   border: 1px solid black;
-  width: 500px;
+  /*width: 500px;*/
 }
 
 .flourish-bar-chart-race {
   border: 1px solid black;
-  width: 600px;
+  width: 80%;
   height: 50%;
 }
 
@@ -278,8 +278,8 @@ a:focus {
 }
 
 .tm-gallery-container {
-  padding-top: 70px;
-  padding-bottom: 120px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .tm-gallery-item {
@@ -298,7 +298,7 @@ a:focus {
 .slick-dots li button:focus:before,
 .slick-dots li.slick-active button:before {
   opacity: 1;
-  color: #3ba0dd;
+  color: #ffffff;
 }
 
 .slick-dots li button:before {
