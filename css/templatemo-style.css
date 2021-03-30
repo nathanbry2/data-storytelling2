@@ -38,8 +38,10 @@ a:focus {
 }
 
 .tm-section-pad-top {
-  padding-top: 135px;
+  padding-top: 75px; 
 }
+
+/*135px*/
 
 .tm-text-primary {
   color: #3496d8;
@@ -272,7 +274,13 @@ a:focus {
 /* Work */
 
 .tm-work-description {
-  max-width: 650px;
+  /*max-width: 650px;*/
+  width: 80%;
+  font-size: 1.0rem;
+}
+
+.tm-work2-description {
+  /*max-width: 650px;*/
   width: 100%;
   font-size: 1.0rem;
 }
@@ -519,19 +527,19 @@ figure.effect-honey:hover h5 i {
   bottom: 35px;
   left: 0;
   right: 0;
-  height: 75px;
+  height: 110px;
   padding-top:25px;
   bottom: 0;
   background-color: #333333;
 }
 
 .tm-footer-link {
-  color: white;
+  color: #ffffff;
 }
 
 .tm-footer-link:hover,
 .tm-footer-link:focus {
-  color: #3496d8;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -629,4 +637,4 @@ p {
     margin-left: 0;
     margin-top: 20px;
   }
-}
+
