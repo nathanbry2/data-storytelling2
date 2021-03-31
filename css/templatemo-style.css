@@ -132,12 +132,12 @@ a:focus {
 }
 
 .flourish-chart {
-  border: 1px solid black;
+  border: 2px solid #ced4da;
   /*width: 500px;*/
 }
 
 .flourish-bar-chart-race {
-  border: 1px solid black;
+  border: 2px solid #ced4da;
   width: 80%;
   height: 50%;
 }
@@ -167,6 +167,7 @@ a:focus {
   display: grid;
   grid-template-columns: auto auto;
   padding: 50px;
+  /*padding-top: -100px;*/
 }
 
 .grid-item {
@@ -524,7 +525,7 @@ figure.effect-honey:hover h5 i {
 
 .tm-footer {
   position: absolute;
-  bottom: 35px;
+  bottom: 25px;
   left: 0;
   right: 0;
   height: 110px;
